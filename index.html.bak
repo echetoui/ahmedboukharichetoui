@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="أحمد البوخاري الشتوي - أستاذ جامعي متقاعد متخصص في اللغة والأدب والحضارة العربية مع خبرة تزيد عن 40 عاماً في التعليم العالي والبحث العلمي">
+    <meta name="keywords" content="أحمد البوخاري الشتوي, أستاذ جامعي, اللغة العربية, الأدب العربي, الحضارة العربية, تونس, دكتوراه, بحث علمي, تدريس">
+    <meta name="author" content="أحمد البوخاري الشتوي">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Arabic">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Liens alternatifs pour différentes langues -->
+    <link rel="alternate" hreflang="ar" href="https://ahmedboukharichetoui.com/" />
+    <link rel="alternate" hreflang="fr" href="https://ahmedboukharichetoui.com/fr/" />
+    <link rel="canonical" href="https://ahmedboukharichetoui.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://ahmedboukharichetoui.com/">
+    <meta property="og:title" content="أحمد البوخاري الشتوي - أستاذ جامعي متقاعد">
+    <meta property="og:description" content="أستاذ مساعد متقاعد في اللغة والأدب والحضارة العربية مع خبرة تزيد عن 40 عاماً في التعليم العالي والبحث العلمي">
+    <meta property="og:image" content="ahmed.jpeg">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:locale:alternate" content="fr_FR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ahmedboukharichetoui.com/">
+    <meta name="twitter:title" content="أحمد البوخاري الشتوي - أستاذ جامعي متقاعد">
+    <meta name="twitter:description" content="أستاذ مساعد متقاعد في اللغة والأدب والحضارة العربية مع خبرة تزيد عن 40 عاماً في التعليم العالي والبحث العلمي">
+    <meta name="twitter:image" content="ahmed.jpeg">
+    <meta name="twitter:creator" content="@ahmedboukhari">
+    
+    <title>أحمد البوخاري الشتوي - أستاذ جامعي متقاعد | خبير في اللغة والأدب العربي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+        
+        :root {
+            /* Couleurs modernes avec meilleur contraste */
+            --primary-color: #2b4acb;
+            --secondary-color: #1e3299;
+            --accent-color: #d60f5d;
+            --dark-color: #121420;
+            --light-color: #ffffff;
+            --text-color: #1a1a1a;
+            --card-color: #ffffff;
+            
+            /* Effets modernes */
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tajawal', sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            scroll-behavior: smooth;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header amélioré */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Q50,80 0,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: cover;
+            opacity: 0.2;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .title {
+            margin: 0.5rem 0;
+            font-size: 2.2rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Navigation améliorée */
+        nav {
+            background-color: var(--dark-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem 0;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul li a:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        
+        nav ul li a i {
+            margin-left: 8px;
+        }
+        
+        /* Sections modernes */
+        section {
+            padding: 4rem 0;
+            margin: 2rem 0;
+            background-color: var(--card-color);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: var(--primary-color);
+            position: relative;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .section-title i {
+            margin-left: 10px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background: var(--accent-color);
+            bottom: -10px;
+            right: 50%;
+            transform: translateX(50%);
+            border-radius: 2px;
+        }
+        
+        /* À propos */
+        .about-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        /* Compétences */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 0 1rem;
+        }
+        
+        .skill-card {
+            background: var(--card-color);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-right: 4px solid var(--accent-color);
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .skill-title {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .skill-title i {
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+        
+        /* Expérience */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--primary-color), var(--accent-color));
+            top: 0;
+            bottom: 0;
+            right: 50%;
+            margin-right: -2px;
+            border-radius: 2px;
+        }
+        
+        .timeline-item {
+            padding: 1rem 2rem;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: var(--card-color);
+            border: 4px solid var(--accent-color);
+            border-radius: 50%;
+            top: 1rem;
+            right: 50%;
+            margin-right: -12px;
+            z-index: 1;
+        }
+        
+        .timeline-content {
+            padding: 1.5rem;
+            background-color: var(--card-color);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .timeline-date {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .timeline-title {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+        
+        .timeline-title i {
+            margin-left: 8px;
+        }
+        
+        /* Formation */
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            padding: 0 1rem;
+        }
+        
+        .education-card {
+            background: var(--card-color);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .education-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .education-card i {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+        
+        .education-year {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .education-degree {
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        
+        /* Publications */
+        .publications-list {
+            list-style-type: none;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .publication-item {
+            padding: 1.5rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+            border-radius: 8px;
+        }
+        
+        .publication-item:hover {
+            background-color: rgba(var(--primary-color), 0.05);
+        }
+        
+        .publication-year {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+        }
+        
+        /* Contact */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2.5rem;
+            background: var(--card-color);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: var(--transition);
+            background-color: var(--card-color);
+            color: var(--text-color);
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(var(--primary-color), 0.2);
+        }
+        
+        textarea.form-control {
+            min-height: 180px;
+            resize: vertical;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: var(--transition);
+            width: 100%;
+        }
+        
+        .btn:hover, .btn:focus {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn:focus {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        .btn i {
+            margin-left: 8px;
+        }
+
+        /* Message de confirmation */
+        .form-message {
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--dark-color), #16213e);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        .social-links {
+            margin: 1.5rem 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 0.75rem;
+            font-size: 1.5rem;
+            transition: var(--transition);
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .social-links a:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Animations */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+                width: 100%;
+                text-align: center;
+            }
+            
+            nav ul li a {
+                justify-content: center;
+            }
+            
+            .timeline::before {
+                right: 31px;
+            }
+            
+            .timeline-item {
+                padding-right: 70px;
+                padding-left: 0;
+            }
+            
+            .timeline-item::after {
+                right: 31px;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .title {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Amélioration de l'accessibilité */
+        :focus {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-color);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+            transition: top 0.3s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Amélioration du contraste des boutons */
+        .btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: var(--transition);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover, .btn:focus {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:focus {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        /* Amélioration du contraste des liens */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover, a:focus {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        /* Amélioration de la lisibilité des formulaires */
+        .form-control {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            width: 100%;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(43, 74, 203, 0.2);
+            outline: none;
+        }
+
+        .form-group label {
+            color: var(--text-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        /* Amélioration du contraste des cartes */
+        .skill-card, .education-card {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: var(--card-color);
+            box-shadow: var(--shadow);
+        }
+
+        .skill-card:hover, .education-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+    </style>
+
+    <!-- Schema.org pour une meilleure visibilité dans les moteurs de recherche -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "أحمد البوخاري الشتوي",
+        "jobTitle": "أستاذ مساعد متقاعد",
+        "description": "أستاذ مساعد متقاعد في اللغة والأدب والحضارة العربية مع خبرة تزيد عن 40 عاماً في التعليم العالي والبحث العلمي",
+        "image": "ahmed.jpeg",
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "كلية العلوم الإنسانية بتونس"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "وزارة الشؤون الدينية، تونس",
+                "jobTitle": "مدير عام الشؤون القرآنية والشؤون الدينية",
+                "startDate": "2010-07",
+                "endDate": "2011-03"
+            },
+            {
+                "@type": "Organization",
+                "name": "كلية الآداب والفنون والإنسانيات بمنوبة منوبة",
+                "jobTitle": "أمين عام ومدير",
+                "startDate": "2006",
+                "endDate": "2010"
+            }
+        ],
+        "knowsLanguage": ["ar", "fr"],
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "doctorate",
+                "name": "دكتوراه بحث معمق (DRA)",
+                "educationalLevel": "doctoral",
+                "dateCreated": "1997"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="animate__animated animate__fadeIn" role="banner">
+        <div class="container">
+            <img src="ahmed.jpeg" 
+                 alt="صورة أحمد البوخاري الشتوي" 
+                 class="profile-img floating">
+            <h1 class="title animate__animated animate__fadeInUp">أحمد البوخاري الشتوي</h1>
+            <h2 class="subtitle animate__animated animate__fadeInUp animate__delay-1s">أستاذ مساعد متقاعد في اللغة والأدب والحضارة العربية</h2>
+        </div>
+    </header>
+    
+    <nav role="navigation" aria-label="القائمة الرئيسية">
+        <div class="container">
+            <ul role="menubar">
+                <li role="none"><a href="#about" role="menuitem"><i class="fas fa-user" aria-hidden="true"></i> نبذة شخصية</a></li>
+                <li role="none"><a href="#skills" role="menuitem"><i class="fas fa-code" aria-hidden="true"></i> المهارات</a></li>
+                <li role="none"><a href="#experience" role="menuitem"><i class="fas fa-briefcase" aria-hidden="true"></i> الخبرة</a></li>
+                <li role="none"><a href="#education" role="menuitem"><i class="fas fa-graduation-cap" aria-hidden="true"></i> التعليم</a></li>
+                <li role="none"><a href="#publications" role="menuitem"><i class="fas fa-book" aria-hidden="true"></i> المنشورات</a></li>
+                <li role="none"><a href="#contact" role="menuitem"><i class="fas fa-envelope" aria-hidden="true"></i> اتصل بي</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container" role="main">
+        <section id="about" class="animate__animated animate__fadeIn" aria-labelledby="about-title">
+            <h2 id="about-title" class="section-title"><i class="fas fa-info-circle" aria-hidden="true"></i> نبذة شخصية</h2>
+            <div class="about-content">
+                <p>أحمل أكثر من 40 عاماً من الخبرة في التعليم العالي والبحث العلمي، حيث أدرت مؤسسات جامعية وصممت برامج تدريبية للأكاديميين وأشرفت على مشاريع ثقافية وعلمية متعددة. خبرتي تتراوح بين التدريس والمناهج الأكاديمية والبحث والنشر العلمي.</p>
+            </div>
+        </section>
+        
+        <section id="skills" class="animate__animated animate__fadeIn">
+            <h2 class="section-title"><i class="fas fa-cogs"></i> المهارات الأساسية</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3 class="skill-title"><i class="fas fa-university"></i> إدارة أكاديمية وتربوية</h3>
+                    <p>قيادة أقسام جامعية ومعاهد إعداد معلّمين (ISFM, كلية الآداب والفنون والإنسانيات بمنوبة, الزيتونة)</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title"><i class="fas fa-chalkboard-teacher"></i> تصميم وتنفيذ برامج تدريب</h3>
+                    <p>إعداد وتنشيط ورش عمل وبرامج تطوير مهني للأطر التعليمية</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title"><i class="fas fa-search"></i> بحث علمي ونشر</h3>
+                    <p>تحرير الطبعات النقدية لمخطوطات عربية، ونشر مقالات في مجلات أكاديمية</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title"><i class="fas fa-language"></i> الترجمة العربية–الفرنسية</h3>
+                    <p>ترجمة فصول كتب وأطروحات بحثية وتقارير رسمية</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title"><i class="fas fa-calendar-alt"></i> تنسيق فعاليات ثقافية</h3>
+                    <p>تنظيم مؤتمرات، وإعداد برامج إذاعية وتلفزيونية، وإدارة نوادي أدبية</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="animate__animated animate__fadeIn">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> الخبرة العملية</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">يوليو 2010 – مارس 2011</div>
+                        <h3 class="timeline-title"><i class="fas fa-building"></i> مدير عام الشؤون القرآنية والشؤون الدينية</h3>
+                        <p>وزارة الشؤون الدينية، تونس</p>
+                        <p>الإشراف الإداري والمالي للقطاع وتنفيذ القرارات الوزارية. قيادة فرق متعددة التخصصات لضمان جودة الخدمات الدينية.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2006–2010</div>
+                        <h3 class="timeline-title"><i class="fas fa-university"></i> أمين عام ومدير</h3>
+                        <p>كلية الآداب والفنون والإنسانيات بمنوبة منوبة</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2002–2006</div>
+                        <h3 class="timeline-title"><i class="fas fa-landmark"></i> مدير</h3>
+                        <p>معهد الزيتونة العالي للعلوم الإسلامية</p>
+                        <p>إدارة المرفق التعليمي يومياً، متابع سياسات التعليم والميزانيات.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">1993–1999</div>
+                        <h3 class="timeline-title"><i class="fas fa-user-graduate"></i> رئيس مصلحة التكوين والامتحانات</h3>
+                        <p>إدارة معاهد إعداد المعلّمين، وزارة التعليم العالي</p>
+                        <p>تنظيم الامتحانات على المستويات المحلية والجهوية والوطنية. تنسيق 11 ندوة لدمج مفاهيم التربية السكّانية ضمن المناهج.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">1999–2012</div>
+                        <h3 class="timeline-title"><i class="fas fa-chalkboard-teacher"></i> أستاذ مساعد وأستاذ رئيسي</h3>
+                        <p>كلية الآداب بالقيروان والمعهد العالي للغات بتونس</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">1977–1990</div>
+                        <h3 class="timeline-title"><i class="fas fa-book-open"></i> أستاذ</h3>
+                        <p>ثانويات وجامعات بدول مثل ليبيا</p>
+                        <p>تدريس اللغة العربية الكلاسيكية واللهجات، وإشراف على بحوث ورسائل.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="animate__animated animate__fadeIn">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> التحصيل العلمي</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="education-year">1997</div>
+                    <div class="education-degree">دكتوراه بحث معمق (DRA)، مرتبة "ممتاز"</div>
+                    <p>كلية الآداب والعلوم الإنسانية بمنوبة</p>
+                </div>
+                <div class="education-card">
+                    <i class="fas fa-certificate"></i>
+                    <div class="education-year">1987</div>
+                    <div class="education-degree">شهادة أهلية البحث (CAR)</div>
+                    <p>كلية الآداب والفنون والإنسانيات بمنوبة منوبة</p>
+                </div>
+                <div class="education-card">
+                    <i class="fas fa-book"></i>
+                    <div class="education-year">1977</div>
+                    <div class="education-degree">ليسانس في اللغة والأدب والحضارة العربية</div>
+                    <p>كلية العلوم الإنسانية بتونس</p>
+                </div>
+                <div class="education-card">
+                    <i class="fas fa-school"></i>
+                    <div class="education-year">1972</div>
+                    <div class="education-degree">البكالوريا آداب</div>
+                    <p>ثانوية قابس المختلطة</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="publications" class="animate__animated animate__fadeIn">
+            <h2 class="section-title"><i class="fas fa-book-open"></i> المنجزات والمنشورات</h2>
+            <ul class="publications-list">
+                <li class="publication-item">
+                    <span class="publication-year">2004:</span> الطبعة النقدية لمخطوط "فضائل سيدي بو سعيد الباجي" (تونس)
+                </li>
+                <li class="publication-item">
+                    <span class="publication-year">2006:</span> الترجمة: فصل "مقالة سيرة ابن عرفة" (باريس–منوبة)
+                </li>
+                <li class="publication-item">
+                    <span class="publication-year">1994–2013:</span> مقالات في مجلات مثل "مدارات"، "الحياة الثقافية"، "المسار"، و"Tropiques"
+                </li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="animate__animated animate__fadeIn">
+            <h2 class="section-title"><i class="fas fa-envelope"></i> اتصل بي</h2>
+            <div class="contact-form">
+                <form id="contactForm" action="https://formspree.io/f/mldbejdj" method="POST">
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                    
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">الموضوع</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">
+                        <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>© <span id="currentYear"></span> أحمد البوخاري الشتوي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animation au défilement
+            const animateOnScroll = () => {
+                const elements = document.querySelectorAll('section');
+                const windowHeight = window.innerHeight;
+                
+                elements.forEach(element => {
+                    const elementPosition = element.getBoundingClientRect().top;
+                    if (elementPosition < windowHeight - 100) {
+                        element.classList.add('animate__fadeInUp');
+                    }
+                });
+            };
+            
+            window.addEventListener('scroll', animateOnScroll);
+            animateOnScroll(); // Exécuter une première fois au chargement
+            
+            // Navigation fluide
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Gestion du formulaire Formspree
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('form-message');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    const formData = new FormData(contactForm);
+                    const submitButton = contactForm.querySelector('button[type="submit"]');
+                    const originalButtonText = submitButton.innerHTML;
+                    
+                    // Afficher le chargement
+                    submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري الإرسال...';
+                    submitButton.disabled = true;
+                    
+                    try {
+                        const response = await fetch(contactForm.action, {
+                            method: 'POST',
+                            body: formData,
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+                        
+                        if (response.ok) {
+                            // Succès
+                            formMessage.textContent = 'شكراً لتواصلك! تم إرسال رسالتك بنجاح وسنرد عليك قريباً.';
+                            formMessage.className = 'form-message success';
+                            formMessage.style.display = 'block';
+                            contactForm.reset();
+                        } else {
+                            // Erreur
+                            const errorData = await response.json();
+                            throw new Error(errorData.error || 'حدث خطأ أثناء الإرسال');
+                        }
+                    } catch (error) {
+                        formMessage.textContent = 'عذراً، حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة مرة أخرى لاحقاً.';
+                        formMessage.className = 'form-message error';
+                        formMessage.style.display = 'block';
+                        console.error('Error:', error);
+                    } finally {
+                        submitButton.innerHTML = originalButtonText;
+                        submitButton.disabled = false;
+                        
+                        // Masquer le message après 5 secondes
+                        setTimeout(() => {
+                            formMessage.style.display = 'none';
+                        }, 5000);
+                    }
+                });
+            }
+            
+            // Année actuelle dans le footer
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Effet hover sur les cartes
+            const cards = document.querySelectorAll('.skill-card, .education-card, .publication-item');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-5px)';
+                });
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
