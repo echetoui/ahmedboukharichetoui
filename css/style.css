@@ -1,0 +1,43 @@
+/* Import de la police Tajawal */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+
+:root {
+    /* Couleurs modernes avec meilleur contraste */
+    --primary-color: #2b4acb;
+    --secondary-color: #1e3299;
+    --accent-color: #d60f5d;
+    --dark-color: #121420;
+    --light-color: #ffffff;
+    --text-color: #1a1a1a;
+    --card-color: #ffffff;
+    
+    /* Effets modernes */
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--text-color);
+    line-height: 1.7;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    direction: rtl;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+} 
